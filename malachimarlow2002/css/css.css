@@ -1,3 +1,8 @@
+#3{
+text-align:center
+font-size:100px;
+}
+
 head{
 background-color:black;
 
@@ -15,7 +20,7 @@ table{
 
 text-align:center;
 }
-#f{
+#f, #d{
 hight:200px;
 width:600px;
 float:right;
@@ -39,10 +44,39 @@ background-color:orange;
 #s{
 color:black;
 }
-#me{
+#me, #mi, #my, #mu, #mp{
 color:green;
 }
 h3{
 font-size:100px;
 color:blue;
-text-align:center
+text-align:center;
+}
+p, ul{
+color:green;
+font-size:20px;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+a:visited {
+    colorblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color:green;
+    background-color: transparent;
+    text-decoration: underline;
+}
